@@ -1,0 +1,1 @@
+{"version":3,"file":"promotionsService.js","sourceRoot":"","sources":["../../src/services/promotionsService.ts"],"names":[],"mappings":";;;AAGA,MAAa,iBAAiB;IAC1B,YACY,kBAAyC;QAAzC,uBAAkB,GAAlB,kBAAkB,CAAuB;IACjD,CAAC;IAEL,KAAK,CAAC,eAAe,CAAC,SAAoB;QACtC,OAAO,MAAM,IAAI,CAAC,kBAAkB,CAAC,eAAe,CAAC,SAAS,CAAC,CAAC;IACpE,CAAC;CACJ;AARD,8CAQC"}

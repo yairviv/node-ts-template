@@ -1,0 +1,1 @@
+{"version":3,"file":"promotionSchema.js","sourceRoot":"","sources":["../../../src/DataAccess/validations/promotionSchema.ts"],"names":[],"mappings":";;;AAAA,uCAAkC;AAElC,yCAAyC;AAC5B,QAAA,eAAe,GAAW,IAAI,iBAAM,CAAC;IAC9C,GAAG,EAAE,EAAE,IAAI,EAAE,MAAM,EAAE,QAAQ,EAAE,IAAI,EAAE,MAAM,EAAE,KAAK,EAAE;IACpD,KAAK,EAAE,EAAE,IAAI,EAAE,MAAM,EAAE,QAAQ,EAAE,IAAI,EAAE;CAC1C,CAAC,CAAC"}
