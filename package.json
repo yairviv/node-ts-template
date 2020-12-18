@@ -5,7 +5,8 @@
     "main": "./src/server.ts",
     "scripts": {
         "debug": "concurrently -k -p \"[{name}]\" -n \"TypeScript,Node\" -c \"yellow.bold,green.bold\" \"npm run watch-tsc\" \"npm run watch-node\"",
-        "start": "npm run serve",
+        "start": "concurrently \"npm run serve\" \"npm run client\"",
+        "client": "npm start --prefix client",
         "serve": "node dist/server.js",
         "serve-debug": "nodemon --inspect dist/server.js",
         "watch-node": "nodemon dist/server.js",
@@ -41,7 +42,7 @@
         "@types/node": "^10.11.4",
         "@types/supertest": "^2.0.6",
         "automapper-ts": "^1.9.0",
-        "concurrently": "^4.0.1",
+        "concurrently": "^4.1.2",
         "husky": "^1.1.1",
         "jest": "^23.6.0",
         "lint-staged": "^7.3.0",
